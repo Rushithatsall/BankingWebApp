@@ -9,7 +9,7 @@ pipeline {
         stage('SCM_Checkout') {
             steps {
                 echo 'Perform SCM Checkout'
-				git 'git 'https://github.com/Rushithatsall/BankingWebApp.git''			
+				git 'https://github.com/Rushithatsall/BankingWebApp.git'			
             }
         }
         stage('Application Build') {
